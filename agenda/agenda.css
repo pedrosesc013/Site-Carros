@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: 'Chivo Mono', monospace;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+}
+
+.top {
+  background-color:  #740404;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 3%;
+  top: 0px;
+}
+
+.link-logo {
+  width: 4%;
+}
+
+.link-logo img {
+  width: 100%;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.links {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  width: 6%;
+}
+
+.links a:hover {
+  color: #d7a743;
+}
+.titulo{
+  text-align: center;
+  margin-top: 100px;
+}
+.agenda{
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%; 
+}
+
+.horarios{
+  margin: auto;
+  width: 30%;
+  height: 200px;
+  border: 1px solid black ;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.horarios .info-center{
+  margin-top: auto;
+}
+.agendar {
+  background-color:  #740404;
+  width: 40%;
+  height: 35px;
+  color: #ffffff;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  float: none;
+}
+.agendar a{
+  text-decoration: none;
+  color: white;
+}
